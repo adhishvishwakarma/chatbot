@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bot</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+        <h1>AI Bot</h1>
+  <!-- <div class="container"> -->
+    
+    <!-- <div class="text-box" contenteditable="true"></div>  -->
+    <!-- <i class="fa fa-microphone"></i> microphone icon to be clicked before speaking -->
+  </div>
+  <!-- <audio class="sound" src="chime.mp3"></audio> -->
+  <!-- <script src="index.js"></script> -->
+  
+
+  <section>
+    
+    <button>
+        <i class="fa fa-microphone"></i>
+    </button>
+
+    <div>
+        <p>You: <em class="output-you">...</em></p>
+        <p>Bot: <em class="output-bot">...</em></p>
+    </div>
+  </section>
+
+
+  <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>
